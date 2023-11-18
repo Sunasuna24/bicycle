@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    /* 高さを中央に揃える */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav li {
+    padding-left: 15px;/* メニューの左に余白を追加 */
+}
